@@ -1,0 +1,40 @@
+body {
+  background-color: #d6e2f0;
+  padding: 50px 20px;
+}
+
+body .container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+body .container .qr {
+  background-image: url("../qr-code-component-main/images/image-qr-code.png");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+body .container .text {
+  height: 150px;
+  width: 260px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+body .container .text h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+body .container .text p {
+  font-size: 15px;
+  color: #7b879d;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */

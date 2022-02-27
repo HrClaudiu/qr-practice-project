@@ -1,0 +1,39 @@
+@import './colors/colors';
+
+body {
+    background-color: $lightGray;
+    padding: 50px 20px;
+    
+    .container {
+        background-color: $white;
+        border-radius: 15px;
+        padding: 10px;
+        .qr {
+            background-image: url('../qr-code-component-main/images/image-qr-code.png');
+            background-position: center;
+            background-size: cover;
+            height: 300px;
+            width: 300px;
+            border-radius: 10px;
+
+        }
+        .text {
+            height: 150px;
+            width: 260px;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Outfit', sans-serif;
+            h1 {
+                font-size: 24px;
+                margin-bottom: 20px;
+                font-weight: 700;
+            }
+            p {
+                font-size: 15px;
+                color: $grayishBlue;
+                font-weight: 400;
+
+            }
+        }
+    }
+}
